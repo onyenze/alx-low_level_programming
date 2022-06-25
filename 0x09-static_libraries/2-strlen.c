@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- *_strlen -  returns the length of a string.
- *@s: S pointer that will be updated
- *Return: 0
+ * _strlen - Returns the length of a string.
+ * @str: string.
+ *
+ * Return: Length.
  */
-
 int _strlen(char *s)
 {
-	int k = 0;
+	int len = 0;
 
-	while (s[k] != '\0')
-	k++;
-	return (k);
+	while (*s++)
+		len++;
+
+	return (len);
 }
