@@ -42,5 +42,3 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	nstr[size1 + size2] = '\0';
 	return (nstr);
 }
-Footer
-
